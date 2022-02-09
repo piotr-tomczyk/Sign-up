@@ -9,6 +9,67 @@
     <title>Sign-up Form</title>
 </head>
 <body>
-    
+    <div class="content">
+        <div class="left">
+            <div class="main-image">
+                <img src="./images/garam.jpg" alt="sign-up" id="image-1">
+                <div class="on-image">
+                    <div class="another-image">
+                        <img src="./images/logo.png" alt="logo" id="image-2">
+                    </div>
+                    <div class="text">Piotr Tomczyk</div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="description">
+                <arcticle class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ut nam. Numquam beatae, earum, quod architecto fugiat unde ad culpa quia eaque neque omnis consectetur.</arcticle>
+                <div class="desc-1">You will want to.</div>
+            </div>
+            <div>
+                <form action="#" method="get" class="form">
+                    <div class="top-form">
+                        <div class="first-last-name">
+                            <div class="label">
+                                <label for="first_name">First Name</label>
+                                <input type="text" name="first_name" id="first_name" placeholder="John">
+                            </div>
+                            <div class="label">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="last_name" id="last_name" placeholder="Doe">
+                            </div>
+                        </div>
+                        <div class="email-phone">
+                            <div class="label">
+                                <label for="user_email">Email Address</label>
+                                <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                            </div>
+                            <div class="label">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="text" id="phone-number" name="phone-number" placeholder="500-500-500"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+                            </div>
+                        </div>
+                        <div class="passwords">
+                            <div class="label">
+                                <label for="user_password">Password</label>
+                                <input type="password" id="user_password" name="user_password"> 
+                            </div>
+                            <div class="label">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" id="confirm_password" name="confirm_password"> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="label button-form">
+                        <div>
+                            <button class="create-acc" type="submit">Create Account</button>
+                        </div>
+                        <div class="acc-text">Already have an account?<a href="#">Log in</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
